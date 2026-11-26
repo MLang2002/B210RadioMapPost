@@ -212,10 +212,6 @@ used. Replace the placeholders below with the public repository metadata:
 }
 ```
 
-When reporting results produced with the interpolation tools, also cite the relevant methodological
-work:
-
-- R. Wahl, G. Wölfle, P. Wertz, P. Wildbolz, and F. Landstorfer, “Dominant path prediction model for urban scenarios,” in *Proc. 14th IST Mobile and Wireless Communications Summit*, Dresden, Germany, Jun. 2005, pp. 1–5.
 
 ### AI-assisted development disclosure
 
