@@ -66,6 +66,11 @@ add_executable(B210RadioMapPost
 target_include_directories(B210RadioMapPost PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_libraries(B210RadioMapPost PRIVATE b210post_core Qt5::Widgets)
 
+# GUI subsystem executable: no console window is created when the app is launched (MinGW: -mwindows, MSVC: /SUBSYSTEM:WINDOWS)
+if(WIN32)
+    set_target_properties(B210RadioMapPost PROPERTIES WIN32_EXECUTABLE TRUE)
+endif()
+
 if(MSVC)
     target_compile_options(b210post_core PRIVATE /W4 /permissive-)
     target_compile_options(B210RadioMapPost PRIVATE /W4 /permissive-)
