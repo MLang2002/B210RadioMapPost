@@ -146,7 +146,7 @@ replacement confirmation.
 
 The loaded Private ENU data remains active and unchanged after export.
 
-## 10. Recover a raw timeline
+## 10. Recover a raw timeline [deprecated]
 
 Open **Tools > Raw Recovery**, select a supported raw timeline, inspect the confirmed recovered RX
 records, and save them to a new Type-A file.
